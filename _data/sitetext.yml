@@ -21,15 +21,15 @@ en: &DEFAULT_EN
     text: "Helpful links to relevant information"
     section: services
     list:
-      - title: "Linkedin"
+      - title: "[Linkedin](https://www.linkedin.com/in/eli-bowden/)"
         desc: "Linked you will find my Linkedin"
         icon: assets/img/heads.jpg #find more at https://fontawesome.com/icons
-        button: Link
-        url: https://www.linkedin.com/in/eli-bowden/
-      - title: "Resume"
-        url: https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing
-        desc: "Link to my latest Resume."
-        icon: fas fa-laptop
+       # button: Link
+       # url: https://www.linkedin.com/in/eli-bowden/
+      - title: "[Resume](https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing)"
+        #url: https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing
+        desc: "Link to my latest Resume"
+        icon: fas fa-file
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
