@@ -18,7 +18,7 @@ url    : "" # the base hostname & protocol for your site, e.g. http://example.co
 baseurl: "/agency-jekyll-theme-starter" # the subpath of your site, e.g. /blog
 
 title      : Bowden Labs
-email      : eli@bowdenlabs.com #this is also the email contact forms will go to
+email      : "eli@bowdenlabs.com" #this is also the email contact forms will go to
 description: "Bio & Link Website"
 author     : Eli Bowden
 # logo:     #optional, defaults to site title
@@ -30,8 +30,8 @@ locale: "en-US" # See available languages in _data/sitetext.yml
 analytics:
   google: #Google Analytics tracking code here
 
-collections:
-  portfolio:
+#collections:
+ # portfolio:
 
 markdown: kramdown
 
