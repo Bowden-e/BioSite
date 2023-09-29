@@ -23,7 +23,7 @@ en: &DEFAULT_EN
     list:
       - title: "[Linkedin](https://www.linkedin.com/in/eli-bowden/)"
         desc: "Linked you will find my Linkedin"
-        icon: assets/img/heads.jpg #find more at https://fontawesome.com/icons
+        icon: fas fa-linkedin #find more at https://fontawesome.com/icons
        # button: Link
        # url: https://www.linkedin.com/in/eli-bowden/
       - title: "[Resume](https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing)"
