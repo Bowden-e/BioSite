@@ -26,8 +26,9 @@ en: &DEFAULT_EN
         icon: assets/img/heads.jpg #find more at https://fontawesome.com/icons
         button: Link
         url: https://www.linkedin.com/in/eli-bowden/
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Resume"
+        url: https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing
+        desc: "Link to my latest Resume."
         icon: fas fa-laptop
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: "Your description here, full **Markdown** support"
