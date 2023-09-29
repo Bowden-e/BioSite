@@ -23,9 +23,9 @@ en: &DEFAULT_EN
     list:
       - title: "Linkedin"
         desc: "Linked you will find my Linkedin"
-        icon: heads.jpg #find more at https://fontawesome.com/icons
+        icon: assets/img/heads.jpg #find more at https://fontawesome.com/icons
         button: Link
-        buttonlink: https://www.linkedin.com/in/eli-bowden/
+        url: https://www.linkedin.com/in/eli-bowden/
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: fas fa-laptop
