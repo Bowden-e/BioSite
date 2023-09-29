@@ -22,17 +22,17 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "[Linkedin](https://www.linkedin.com/in/eli-bowden/)"
-        desc: "Linked you will find my Linkedin"
-        icon: fas fa-linkedin #find more at https://fontawesome.com/icons
+        desc: "Linked above is my Linkedin"
+        icon: fas fa-linkedin-in #find more at https://fontawesome.com/icons
        # button: Link
        # url: https://www.linkedin.com/in/eli-bowden/
       - title: "[Resume](https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing)"
         #url: https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing
-        desc: "Link to my latest Resume"
+        desc: "Linked above is my current Resume"
         icon: fas fa-file
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "[Learning](https://en.wikipedia.org/wiki/Special:RandomInCategory/Featured_articles)"
+        desc: "Linked above you will learn something new"
+        icon: fab fa-wikipedia
 
   portfolio:
     title: "Portfolio"
