@@ -34,11 +34,11 @@ en: &DEFAULT_EN
         desc: "Linked above you will learn something new"
         icon: fab favor
 
-#  portfolio:
+  #portfolio:
  #   title: "Portfolio"
- #   text: "Lorem ipsum dolor sit amet consectetur."
- #   section: portfolio
-  #  closebutton: "Close Project"
+  #  text: "Lorem ipsum dolor sit amet consectetur."
+  #  section: portfolio
+   # closebutton: "Close Project"
 
 #  timeline:
 #    title: "Timeline"
@@ -74,28 +74,30 @@ en: &DEFAULT_EN
   about:
     title: "About Me"
    # text: "our story"
-    body: "As a Cloud Engineer, Sr Analyst at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals.
-    ---
+    body: "As a Cloud Engineer, Sr Analyst at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals.\
 I graduated from Western Washington University with a Bachelor of Arts in Management Information Systems, with a 3.61 GPA. I have also earned multiple certifications from Microsoft including AZ-104, AZ-900, SC-900, DP-900, MS-900. I have participated in several competitions and hackathons, winning the popular vote in the 2021 FUEL Hackathon and placing in the top 15 nationally in Telecommunication Cabling(Skills USA). I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
     section: about
 
-#  clients:
-#    section: clients
-#    max-height: 100px
-#    horizontal-scrolling: "" #"yes/no"
-#    list:
-#      - title: "envato"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/envato.jpg
-#      - title: "designmodo"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/designmodo.jpg
-#      - title: "themeforest"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/themeforest.jpg
-#      - title: "Creative Market"
-#        url: https://github.com/raviriley/agency-jekyll-theme
-#        logo: assets/img/clients/creative-market.jpg
+ clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "yes" #"yes/no"
+    list:
+      - title: "AZ-104"
+        url: https://www.credly.com/badges/3316b828-3ce1-49d9-9a36-61af0fbd06dc?source=linked_in_profile
+        logo: assets/img/104.png
+      - title: "AZ-900"
+        url: https://www.credly.com/badges/3316b828-3ce1-49d9-9a36-61af0fbd06dc?source=linked_in_profile
+        logo: assets/img/az.png
+      - title: "MS-900"
+        url: https://www.credly.com/badges/93a336a3-01c1-400f-86ce-23e3d2b3e5c9?source=linked_in_profile
+        logo: assets/img/ms.png
+      - title: "SC-900"
+        url: https://www.credly.com/badges/25cebd29-7db5-491c-947e-85f28f54e39f/linked_in_profile
+        logo: assets/img/sc.png
+      - title: "DP-900"
+        url: https://www.credly.com/badges/11cf71d5-526a-4a0d-985d-a914e821d151/linked_in_profile
+        logo: assets/img/dp.png
 
 #  team:
 #    title: "OUR AMAZING TEAM"
