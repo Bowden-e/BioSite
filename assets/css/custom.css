@@ -109,6 +109,11 @@ header.masthead .intro-text .intro-lead-in {
 /* About Section */
 #about {
   background-color: var(--bg-color);
+  padding-top: 40px; /* Reduced from default */
+}
+
+#timeline {
+  padding-bottom: 40px; /* Reduced from default */
 }
 
 .team-member {
