@@ -179,6 +179,8 @@ header.masthead .intro-text .intro-lead-in {
 
 section {
   animation: fadeInUp 0.8s ease-out forwards;
+  scroll-margin-top: 70px;
+  /* Offset for fixed header */
 }
 
 /* Button Modernization */
