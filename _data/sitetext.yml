@@ -74,7 +74,7 @@ en: &DEFAULT_EN
   about:
     title: "About Me"
    # text: "our story"
-    image: ![Eli](assets/img/heads.jpg)
+    image: assets/img/heads.jpg
     body: "As a Cloud Engineer at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals.\
 I graduated from Western Washington University with a Bachelor of Arts in Management Information Systems, with a 3.61 GPA. I have also earned multiple certifications from Microsoft including AZ-104, AZ-900, SC-900, DP-900, MS-900. I have participated in several competitions and hackathons, winning the popular vote in the 2021 FUEL Hackathon and placing in the top 15 nationally in Telecommunication Cabling(Skills USA). I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
     section: about
