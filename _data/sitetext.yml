@@ -17,8 +17,8 @@ en: &DEFAULT_EN
     #buttonlink: "#services"
 
   services:
-    title: "Connect"
-    text: "Professional Links"
+    title: "Profile"
+    text: "As a Modern Workplace Engineer at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals. I have earned multiple certifications from Microsoft including AZ-104, AZ-900, SC-900, DP-900, MS-900. I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
     section: services
     list:
       - title: "[Linkedin](https://www.linkedin.com/in/eli-bowden/)"
@@ -66,8 +66,7 @@ en: &DEFAULT_EN
     title: "About Me"
    # text: "our story"
     image: assets/img/heads.jpg
-    body: "As a Modern Workplace Engineer at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals.\
- I have earned multiple certifications from Microsoft including AZ-104, AZ-900, SC-900, DP-900, MS-900. I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
+    body: ""
     section: about
 
   certs:

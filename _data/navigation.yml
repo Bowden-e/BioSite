@@ -11,12 +11,12 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Links"
+    - title: "Profile"
       section: services
 #    - title: "Portfolio"
 #      section: portfolio
-    - title: "About"
-      section: about
+#    - title: "About"
+#      section: about
     - title: "Certs"
       section: certs
 #    - title: "Team"
