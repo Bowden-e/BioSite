@@ -55,6 +55,8 @@ header.masthead .intro-text .intro-lead-in {
 /* Services / Links Section - Card Transformation */
 #services {
   background-color: #fff;
+  padding-bottom: 20px;
+  /* Reduced to pull next section closer */
 }
 
 #services .text-center {
@@ -140,9 +142,22 @@ header.masthead .intro-text .intro-lead-in {
   box-shadow: var(--shadow-lg);
 }
 
+/* Services / Link Text Override */
+#services .section-subheading {
+  font-size: 1.25rem;
+  /* Increased size (default usually ~1rem) */
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #555;
+  /* Slightly darker than muted for readability */
+}
+
 /* Certifications Section (if enabled) */
 #certs {
-  padding: 100px 0;
+  padding: 40px 0;
+  /* Reduced from 100px */
   background-color: #fff;
 }
 
