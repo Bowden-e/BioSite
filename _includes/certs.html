@@ -1,0 +1,47 @@
+<!-- Certifications -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="py-5" id="{{ site.data.sitetext[site.locale].certs.section | default: " certs" }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Certifications</h2>
+                <h3 class="section-subheading text-muted">My professional certifications</h3>
+            </div>
+        </div>
+        <div class="row" {% if site.data.sitetext[site.locale].certs.horizontal-scrolling=="yes" %} id="scrolling-certs"
+            {% endif %}>
+            {% for cert in site.data.sitetext[site.locale].certs.list %}
+            <div class="col-md-3 col-sm-6 cert-item">
+                <a href="{{ cert.url }}" target="_blank">
+                    <img class="img-fluid d-block mx-auto" src="{{ cert.logo }}" alt="{{ cert.title }}"
+                        style="max-height: {{ site.data.sitetext[site.locale].certs.max-height | default: " 100px" }}">
+                    <div class="text-center mt-2"><strong>{{ cert.title }}</strong></div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% else %}
+<section class="py-5" id="{{ site.data.sitetext.certs.section | default: " certs" }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase">Certifications</h2>
+                <h3 class="section-subheading text-muted">My professional certifications</h3>
+            </div>
+        </div>
+        <div class="row" {% if site.data.sitetext.certs.horizontal-scrolling=="yes" %} id="scrolling-certs" {% endif %}>
+            {% for cert in site.data.sitetext.certs.list %}
+            <div class="col-md-3 col-sm-6 cert-item">
+                <a href="{{ cert.url }}" target="_blank">
+                    <img class="img-fluid d-block mx-auto" src="{{ cert.logo }}" alt="{{ cert.title }}"
+                        style="max-height: {{ site.data.sitetext.certs.max-height | default: " 100px" }}">
+                    <div class="text-center mt-2"><strong>{{ cert.title }}</strong></div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}

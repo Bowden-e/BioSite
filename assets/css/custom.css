@@ -1,0 +1,189 @@
+/* Custom CSS for BioSite */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+  --primary-color: #007bff; /* Azure Blue */
+  --secondary-color: #6c757d;
+  --bg-color: #f8f9fa;
+  --card-bg: #ffffff;
+  --text-color: #212529;
+  --text-muted: #6c757d;
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+  --transition: all 0.3s ease;
+}
+
+/* Global Typography Overrides */
+body {
+  font-family: 'Inter', sans-serif !important;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700;
+}
+
+/* Header Improvements */
+header.masthead {
+  position: relative;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.5); /* Darken image */
+}
+
+header.masthead .intro-text .intro-heading {
+  font-weight: 800;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 300;
+}
+
+/* Services / Links Section - Card Transformation */
+#services {
+  background-color: #fff;
+}
+
+#services .text-center {
+  margin-bottom: 3rem;
+}
+
+/* Targeting the service items to look like cards */
+#services .col-md-4 {
+  margin-bottom: 2rem;
+}
+
+#services .col-md-4 span.fa-stack {
+  margin-bottom: 1rem;
+  transition: var(--transition);
+}
+
+#services .col-md-4:hover span.fa-stack {
+  transform: scale(1.1);
+  color: var(--primary-color);
+}
+
+#services h4.service-heading {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+#services p.text-muted {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Create a card-like effect for the service items */
+#services .col-md-4 {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+#services .col-md-4:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(0,123,255, 0.2);
+}
+
+/* Link styling within cards */
+#services .col-md-4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#services .col-md-4 a:hover {
+  color: var(--primary-color);
+}
+
+/* About Section */
+#about {
+  background-color: var(--bg-color);
+}
+
+.team-member {
+  margin-bottom: 3rem;
+}
+
+.team-member img {
+  border: 5px solid #fff;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.team-member img:hover {
+  transform: scale(1.02);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Certifications Section (if enabled) */
+#certs {
+    padding: 100px 0;
+    background-color: #fff;
+}
+#certs .cert-item {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+#certs .cert-item:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-5px);
+}
+#certs .cert-item img {
+    max-height: 100px;
+    margin-bottom: 15px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Button Modernization */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  border-radius: 50px;
+  padding: 12px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: var(--transition);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #0056b3 !important;
+  border-color: #0056b3 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+/* Footer */
+footer {
+  background-color: #fff;
+  border-top: 1px solid #eee;
+}
