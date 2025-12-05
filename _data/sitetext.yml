@@ -12,71 +12,62 @@
 en: &DEFAULT_EN
   header:
     title: Welcome to Bowden Labs
-    text: It's Nice To Meet You
+    text: Modern Workplace Engineer
     #button: Tell Me More
     #buttonlink: "#services"
 
   services:
-    title: "Links"
-    text: "Helpful links to relevant information"
+    title: "Connect"
+    text: "Professional Links"
     section: services
     list:
       - title: "[Linkedin](https://www.linkedin.com/in/eli-bowden/)"
-        desc: "Linked above is my Linkedin"
+        desc: "Let's expand our professional network."
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
        # button: Link
        # url: https://www.linkedin.com/in/eli-bowden/
       - title: "[Resume](https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing)"
         #url: https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing
-        desc: "Linked above is my current Resume"
+        desc: "Detailed breakdown of my experience and skills."
         icon: fas fa-file
-      - title: "[Learning](https://en.wikipedia.org/wiki/Special:RandomInCategory/Featured_articles)"
-        desc: "Linked above you will learn something new"
-        icon: fab favor
 
-  #portfolio:
- #   title: "Portfolio"
-  #  text: "Lorem ipsum dolor sit amet consectetur."
-  #  section: portfolio
-   # closebutton: "Close Project"
-
-#  timeline:
-#    title: "Timeline"
-#    text: "Lorem ipsum timeline"
-#    section: timeline
+  timeline:
+    title: "My Journey"
+    text: "Experience & Education"
+    section: timeline
     # left is the default
     #start_align: "left"
-#    events:
-#      - title: "Our Humble Beginnings"
-#        year: "2009-2011"
-#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-#        image: assets/img/timeline/1.jpg
-#        alt:
-#      - title: "An Agency is Born"
-#        year: "March 2011"
-#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-#        image: assets/img/timeline/2.jpg
-#        alt:
- #     - title: "Jekyll Theme is created"
-  #      year: "2019"
-  #      desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-#        image: assets/img/timeline/3.jpg
-#        alt: image alt text
-#      - title: "Title"
-#        year: "2009-2011"
-#        desc: "Your description here, **Markdown** is fully supported."
-#        image: assets/img/timeline/4.jpg
-#        alt:
+    events:
+      - title: "Modern Workplace Engineer"
+        year: "Present"
+        desc: "Specializing in Azure and Endpoint solutions at **Avanade**. Leveraging skills in Autopilot, Application Development, and Cloud-Based Solutions to design and support client needs."
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Western Washington University"
+        year: "Graduated"
+        desc: "Earned a Bachelor of Arts in Management Information Systems with a 3.61 GPA."
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "FUEL Hackathon Winner"
+        year: "2021"
+        desc: "Won the popular vote in the 2021 FUEL Hackathon, demonstrating rapid problem-solving and innovation."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
+      - title: "Skills USA National Finalist"
+        year: "2021"
+        desc: "Placed in the top 15 nationally in Telecommunication Cabling."
+        image: assets/img/timeline/4.jpg
+        alt:
         # you can enforce the alignment
-#        align: right
-#    end: "Be Part <br> of Our <br> Story!"
+        align: right
+    end: "Let's Build <br> The Future!"
 
   about:
     title: "About Me"
    # text: "our story"
     image: assets/img/heads.jpg
-    body: "As a Cloud Engineer at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals.\
-I graduated from Western Washington University with a Bachelor of Arts in Management Information Systems, with a 3.61 GPA. I have also earned multiple certifications from Microsoft including AZ-104, AZ-900, SC-900, DP-900, MS-900. I have participated in several competitions and hackathons, winning the popular vote in the 2021 FUEL Hackathon and placing in the top 15 nationally in Telecommunication Cabling(Skills USA). I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
+    body: "As a Modern Workplace Engineer at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals.\
+ I have earned multiple certifications from Microsoft including AZ-104, AZ-900, SC-900, DP-900, MS-900. I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
     section: about
 
   certs:
@@ -151,6 +142,7 @@ I graduated from Western Washington University with a Bachelor of Arts in Manage
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
     submit: "Send Message"
+    submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
@@ -159,8 +151,8 @@ I graduated from Western Washington University with a Bachelor of Arts in Manage
       #  icon: "fab fa-twitter"
       #- url: https://facebook.com
       #  icon: "fab fa-facebook-f"
-     # - url: https://linkedin.com
-     #  icon: "fab fa-linkedin-in"
+      # - url: https://linkedin.com
+      #  icon: "fab fa-linkedin-in"
     #  - url: https://github.com/raviriley/agency-jekyll-theme
     #    icon: "fab fa-github"
     #  - url: https://instagram.com
@@ -233,7 +225,7 @@ es: &DEFAULT_ES
   #      desc: "Su descripción aquí, **Markdown** es soportado completamente."
   #      image: assets/img/timeline/4.jpg
   #      alt:
-        # you can enforce the alignment
+  #      # you can enforce the alignment
   #      align: right
   #  end: "¡Se parte <br> de Nuestra <br> Historia!"
 
@@ -267,37 +259,37 @@ es: &DEFAULT_ES
 #    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
 #    section: equipo
 #    people:
- #     - name: "Kay Garland"
-    #    role: "Lead Designer"
-    #    image: assets/img/team/500x500.jpg
-    #    social:
-    #      - url: https://twitter.com
-    #        icon: fab fa-twitter
-    #      - url: https://facebook.com
-    #        icon: fab fa-facebook-f
-    #      - url: https://linkedin.com
-    #        icon: fab fa-linkedin-in
-    #  - name: "Larry Parker"
-    #    role: "Lead Marketer"
-    #    image: assets/img/team/2.jpg
-    #    social:
-    #      - url: https://twitter.com
-   #         icon: fab fa-twitter
-   #       - url: https://facebook.com
-   #         icon: fab fa-facebook-f
-   #       - url: https://linkedin.com
-   #         icon: fab fa-linkedin-in
-   #   - name: "Diana Perterson"
-  #      role: "Lead Developer"
-  #      image: assets/img/team/500x500.jpg
-  #      social:
- #         - url: https://twitter.com
- #           icon: fab fa-twitter
- #         - url: https://facebook.com
- #           icon: fab fa-facebook-f
- #         - url: https://linkedin.com
- #           icon: fab fa-linkedin-in
-
+#      - name: "Kay Garland"
+#        role: "Lead Designer"
+#        image: assets/img/team/500x500.jpg
+#        social:
+#          - url: https://twitter.com
+#            icon: fab fa-twitter
+#          - url: https://facebook.com
+#            icon: fab fa-facebook-f
+#          - url: https://linkedin.com
+#            icon: fab fa-linkedin-in
+#      - name: "Larry Parker"
+#        role: "Lead Marketer"
+#        image: assets/img/team/2.jpg
+#        social:
+#          - url: https://twitter.com
+#            icon: fab fa-twitter
+#          - url: https://facebook.com
+#            icon: fab fa-facebook-f
+#          - url: https://linkedin.com
+#            icon: fab fa-linkedin-in
+#      - name: "Diana Perterson"
+#        role: "Lead Developer"
+#        image: assets/img/team/500x500.jpg
+#        social:
+#          - url: https://twitter.com
+#            icon: fab fa-twitter
+#          - url: https://facebook.com
+#            icon: fab fa-facebook-f
+#          - url: https://linkedin.com
+#            icon: fab fa-linkedin-in
+#
   contact:
     title: "Contáctenos"
     text: "Lorem ipsum or call 123456789"
