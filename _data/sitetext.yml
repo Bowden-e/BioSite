@@ -26,7 +26,7 @@ en: &DEFAULT_EN
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
        # button: Link
        # url: https://www.linkedin.com/in/eli-bowden/
-      - title: "[Resume](https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing)"
+      - title: "[Resume](https://drive.google.com/file/d/1YM2Q-rvbI_SINAPcLUiLFn80PH15Pfgn/view?usp=sharing)"
         #url: https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing
         desc: "Detailed breakdown of my experience and skills."
         icon: fas fa-file
