@@ -43,8 +43,8 @@ en: &DEFAULT_EN
         desc: "Specializing in Azure and Endpoint solutions at **Avanade**. Leveraging skills in Autopilot, Application Development, and Cloud-Based Solutions to design and support client needs."
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "Western Washington University"
-        year: "Graduated"
+      - title: "Graduated Western Washington University"
+        year: "2022"
         desc: "Earned a Bachelor of Arts in Management Information Systems with a 3.61 GPA."
         image: assets/img/timeline/2.jpg
         alt:
