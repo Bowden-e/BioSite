@@ -4,15 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
 :root {
-  --primary-color: #007bff; /* Azure Blue */
+  --primary-color: #007bff;
+  /* Azure Blue */
   --secondary-color: #6c757d;
   --bg-color: #f8f9fa;
   --card-bg: #ffffff;
   --text-color: #212529;
   --text-muted: #6c757d;
-  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease;
 }
 
@@ -23,7 +24,12 @@ body {
   background-color: var(--bg-color);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Inter', sans-serif !important;
   font-weight: 700;
 }
@@ -32,12 +38,13 @@ h1, h2, h3, h4, h5, h6 {
 header.masthead {
   position: relative;
   background-blend-mode: overlay;
-  background-color: rgba(0, 0, 0, 0.5); /* Darken image */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Darken image */
 }
 
 header.masthead .intro-text .intro-heading {
   font-weight: 800;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -87,13 +94,13 @@ header.masthead .intro-text .intro-lead-in {
   border-radius: 12px;
   box-shadow: var(--shadow-sm);
   transition: var(--transition);
-  border: 1px solid rgba(0,0,0,0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 #services .col-md-4:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-lg);
-  border-color: rgba(0,123,255, 0.2);
+  border-color: rgba(0, 123, 255, 0.2);
 }
 
 /* Link styling within cards */
@@ -109,11 +116,13 @@ header.masthead .intro-text .intro-lead-in {
 /* About Section */
 #about {
   background-color: var(--bg-color);
-  padding-top: 40px; /* Reduced from default */
+  padding-top: 20px;
+  /* Further reduced from 40px */
 }
 
 #timeline {
-  padding-bottom: 40px; /* Reduced from default */
+  padding-bottom: 20px;
+  /* Further reduced from 40px */
 }
 
 .team-member {
@@ -133,23 +142,26 @@ header.masthead .intro-text .intro-lead-in {
 
 /* Certifications Section (if enabled) */
 #certs {
-    padding: 100px 0;
-    background-color: #fff;
+  padding: 100px 0;
+  background-color: #fff;
 }
+
 #certs .cert-item {
-    text-align: center;
-    margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 10px;
-    transition: all 0.3s ease-in-out;
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
+
 #certs .cert-item:hover {
-    background-color: #f8f9fa;
-    transform: translateY(-5px);
+  background-color: #f8f9fa;
+  transform: translateY(-5px);
 }
+
 #certs .cert-item img {
-    max-height: 100px;
-    margin-bottom: 15px;
+  max-height: 100px;
+  margin-bottom: 15px;
 }
 
 /* Animations */
@@ -158,6 +170,7 @@ header.masthead .intro-text .intro-lead-in {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -180,7 +193,9 @@ section {
   transition: var(--transition);
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
   background-color: #0056b3 !important;
   border-color: #0056b3 !important;
   transform: translateY(-2px);
