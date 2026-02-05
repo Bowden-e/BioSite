@@ -176,7 +176,15 @@ header.masthead .intro-text .intro-lead-in {
 
 #certs .cert-item img {
   max-height: 100px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; Removed for flex alignment */
+}
+
+.cert-img-wrapper {
+  height: 140px; /* Accommodates the 135px image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
 }
 
 /* Animations */

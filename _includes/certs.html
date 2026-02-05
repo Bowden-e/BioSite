@@ -13,8 +13,11 @@
             {% for cert in site.data.sitetext[site.locale].certs.list %}
             <div class="col-md-3 col-sm-6 cert-item">
                 <a href="{{ cert.url }}" target="_blank">
-                    <img class="img-fluid d-block mx-auto" src="{{ cert.logo }}" alt="{{ cert.title }}"
-                        style="max-height: {{ cert.max_height | default: site.data.sitetext[site.locale].certs.max-height | default: " 100px" }}">
+                    <div class="cert-img-wrapper">
+                        <img class="img-fluid" src="{{ cert.logo }}" alt="{{ cert.title }}"
+                            style="max-height: {{ cert.max_height | default: site.data.sitetext[site.locale].certs.max-height | default: "
+                            100px" }}">
+                    </div>
                     <div class="text-center mt-2"><strong>{{ cert.title }}</strong></div>
                 </a>
             </div>
@@ -35,8 +38,11 @@
             {% for cert in site.data.sitetext.certs.list %}
             <div class="col-md-3 col-sm-6 cert-item">
                 <a href="{{ cert.url }}" target="_blank">
-                    <img class="img-fluid d-block mx-auto" src="{{ cert.logo }}" alt="{{ cert.title }}"
-                        style="max-height: {{ cert.max_height | default: site.data.sitetext.certs.max-height | default: " 100px" }}">
+                    <div class="cert-img-wrapper">
+                        <img class="img-fluid" src="{{ cert.logo }}" alt="{{ cert.title }}"
+                            style="max-height: {{ cert.max_height | default: site.data.sitetext.certs.max-height | default: "
+                            100px" }}">
+                    </div>
                     <div class="text-center mt-2"><strong>{{ cert.title }}</strong></div>
                 </a>
             </div>
