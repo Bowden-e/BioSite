@@ -22,13 +22,14 @@ en: &DEFAULT_EN
     text: "As a Modern Workplace Engineer at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals. I have earned multiple certifications from Microsoft including MD-102, AZ-104, AZ-900, SC-900, DP-900, MS-900. I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
     section: services
     list:
-      - title: "[Linkedin](https://www.linkedin.com/in/eli-bowden/)"
+      - title: "Linkedin"
         desc: "Let's expand our professional network."
         icon: fas fa-laptop #find more at https://fontawesome.com/icons
        # button: Link
-       # url: https://www.linkedin.com/in/eli-bowden/
-      - title: "[Resume](https://drive.google.com/file/d/1YM2Q-rvbI_SINAPcLUiLFn80PH15Pfgn/view?usp=sharing)"
-        #url: https://docs.google.com/document/d/1E-5-SsfyTnxe3GcYiaXz4Nh97XusilKrLZ4kbx9a5UI/edit?usp=sharing
+        url: https://www.linkedin.com/in/eli-bowden/
+      - title: "Resume"
+        url: https://drive.google.com/file/d/1YM2Q-rvbI_SINAPcLUiLFn80PH15Pfgn/view?usp=sharing
+        desc: "Detailed breakdown of my experience and skills."
         desc: "Detailed breakdown of my experience and skills."
         icon: fas fa-file
 
