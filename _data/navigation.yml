@@ -19,6 +19,8 @@ en: &DEFAULT_EN
 #      section: about
     - title: "Certs"
       section: certs
+    - title: "Journey"
+      section: timeline
 #    - title: "Team"
 #      section: team
 #    - title: "Contact"
