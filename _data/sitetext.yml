@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Profile"
-    text: "As a Modern Workplace Engineer at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals. I have earned multiple certifications from Microsoft including AZ-104, AZ-900, SC-900, DP-900, MS-900. I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
+    text: "As a Modern Workplace Engineer at Avanade, I specialize in Azure and Endpoint solutions, leveraging my skills in Autopilot, Application Development, and Cloud-Based Solutions. I work with clients across various industries and scales to design, implement, and support cloud-based solutions that meet business needs and goals. I have earned multiple certifications from Microsoft including MD-102, AZ-104, AZ-900, SC-900, DP-900, MS-900. I am interested in working within cloud platforms and cybersecurity, and I am always eager to learn new technologies and skills."
     section: services
     list:
       - title: "[Linkedin](https://www.linkedin.com/in/eli-bowden/)"
@@ -74,6 +74,9 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "yes" #"yes/no"
     list:
+      - title: "MD-102"
+        url: "#"
+        logo: assets/img/md102.png
       - title: "AZ-104"
         url: https://www.credly.com/badges/3316b828-3ce1-49d9-9a36-61af0fbd06dc?source=linked_in_profile
         logo: assets/img/104.png
