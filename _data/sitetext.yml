@@ -75,6 +75,7 @@ en: &DEFAULT_EN
     horizontal-scrolling: "yes" #"yes/no"
     list:
       - title: "MD-102"
+        max_height: "135px"
         url: https://learn.microsoft.com/en-us/users/elibowden-1161/credentials/6060777ee5887d18?ref=https%3A%2F%2Fwww.linkedin.com%2F
         logo: assets/img/md102.webp
       - title: "AZ-104"
