@@ -123,8 +123,12 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 #timeline {
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   /* Further reduced from 40px */
+}
+
+#contact {
+  padding-top: 20px;
 }
 
 .team-member {
