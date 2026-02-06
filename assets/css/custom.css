@@ -128,7 +128,11 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 #contact {
-  padding-top: 20px;
+  padding-top: 0px;
+}
+
+.timeline {
+  margin-bottom: -50px !important;
 }
 
 .team-member {
@@ -184,7 +188,8 @@ header.masthead .intro-text .intro-lead-in {
 }
 
 .cert-img-wrapper {
-  height: 140px; /* Accommodates the 135px image */
+  height: 140px;
+  /* Accommodates the 135px image */
   display: flex;
   align-items: center;
   justify-content: center;
